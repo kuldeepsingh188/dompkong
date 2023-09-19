@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap%22");
+
+@font-face {
+  font-family: Azo;
+  src: url("./assets/font/azo-sans-uber.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.bg_home {
+  background-image: url(../src/assets/img/png/bg_home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1140px !important;
+}
+
+.home_btn {
+  border-radius: 4px;
+  box-shadow: 0px 9px 29px 0px rgba(253, 218, 96, 0.50);
+}
+
+.kong::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #F1C85D;
+  height: 5px;
+  width: 100%;
+}
+
+.mint_bg {
+  background-image: url(../src/assets/img/png/mint_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gayb::-webkit-scrollbar{
+  display: none;
+}
+
+/* ---------------- slider ------------ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#slideshow {
+  margin: 0 auto;
+  padding-top: 50px;
+  height: 300px;
+  width: 300px;
+  background-color: transparent;
+  box-sizing: border-box;
+  transform: rotate(18deg);
+}
+
+.entire-content {
+  margin: auto;
+  width: 190px;
+  perspective: 1000px;
+  position: relative;
+  padding-top: 80px;
+}
+
+.content-carrousel {
+  width: 100%;
+  position: absolute;
+  float: right;
+  animation: rotar 15s infinite linear;
+  transform-style: preserve-3d;
+}
+
+.content-carrousel:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.content-carrousel figure {
+  width: 70%;
+  height: 100px;
+  border: 1px solid #FDDA60;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.content-carrousel figure:nth-child(1) {
+  transform: rotateY(0deg) translateZ(200px);
+}
+
+.content-carrousel figure:nth-child(2) {
+  transform: rotateY(40deg) translateZ(200px);
+}
+
+.content-carrousel figure:nth-child(3) {
+  transform: rotateY(80deg) translateZ(200px);
+}
+
+.content-carrousel figure:nth-child(4) {
+  transform: rotateY(120deg) translateZ(200px);
+}
+
+.content-carrousel figure:nth-child(5) {
+  transform: rotateY(160deg) translateZ(200px);
+}
+
+.content-carrousel figure:nth-child(6) {
+  transform: rotateY(200deg) translateZ(200px);
+}
+
+.content-carrousel figure:nth-child(7) {
+  transform: rotateY(240deg) translateZ(200px);
+}
+
+.content-carrousel figure:nth-child(8) {
+  transform: rotateY(280deg) translateZ(200px);
+}
+
+.content-carrousel figure:nth-child(9) {
+  transform: rotateY(320deg) translateZ(200px);
+}
+
+.content-carrousel figure:nth-child(10) {
+  transform: rotateY(360deg) translateZ(280px);
+}
+
+.shadow {
+  position: absolute;
+  box-shadow: 0px 0px 20px 0px #000;
+  border-radius: 1px;
+}
+
+.bg_fade {
+  width: 216px;
+  height: 216px;
+  background: #FDDA60;
+  filter: blur(131px);
+}
+
+.content-carrousel img {
+  image-rendering: auto;
+  transition: all 300ms;
+  width: 100%;
+  height: 100%;
+}
+
+.content-carrousel img:hover {
+  transform: scale(1.1);
+  transition: all 300ms;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* -----------accordin---------- */
+
+label:after {
+  content: '+';
+  color: #FDDA60;
+  position: absolute;
+  right: 1em;
+}
+
+input:checked+label:after {
+  content: '-';
+  color: #FDDA60;
+  line-height: .8em;
+}
+
+.accordion__content {
+  max-height: 0em;
+  transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+}
+
+input[name='panel']:checked~.accordion__content {
+  max-height: 50em;
+}
+
+.changecolor:hover .circle {
+  background-color: #FDDA60;
+  box-shadow: 0px 2px 10px 2px rgba(253, 218, 96, 0.70);
+}
+
+.changecolor:hover .circle div {
+  background-color: #FDDA60;
+}
+
+.changecolor:hover ::after,
+.changecolor:hover ::before {
+  background-color: #FDDA60;
+}
+
+.my_box2 {
+  color: white;
+  background: linear-gradient(transparent);
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+}
+
+.my_box2::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  padding: 2px;
+  background: linear-gradient(to right, #0A0A0A 50%, #FDDA60 50%);
+  inset: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+
+.zoom {
+  animation: zoom-up 3s linear infinite;
+}
+
+@keyframes zoom-up {
+  0%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1.2);
+  }
+}
+
+@media (min-width:1024px ) {
+  .my_box2::after{
+    left: -25%;
+  }
+}
