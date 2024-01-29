@@ -1,5 +1,5 @@
 import React from 'react'
-import monkey from '../assets/img/png/gorila.png'
+import monkey from '../assets/img/webp/gorila.webp'
 
 const Roadline = () => {
   return (

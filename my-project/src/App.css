@@ -169,6 +169,11 @@
   }
 }
 
+/* ---------- utilites ------------- */
+
+.doccard:hover p{
+color: #000;
+}
 /* -----------accordin---------- */
 
 label:after {

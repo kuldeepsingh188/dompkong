@@ -21,7 +21,7 @@ function App() {
     AOS.init();
   }, [])
   return (
-    <div className='overflow-hidden'>
+    <div className='overflow-hidden bg-black'>
       <BackToTop />
       <Preloader/>
       <Home />

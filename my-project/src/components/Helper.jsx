@@ -65,4 +65,4 @@ export const Team = [
         img3: twiter,
     },
 
-    ]
+]

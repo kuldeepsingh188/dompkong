@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from "react-slick";
-import fannie from '../assets/img/png/fannie.png'
-import evening from '../assets/img/png/evening.png'
-import naberskha from '../assets/img/png/nebrska.png'
+import fannie from '../assets/img/webp/fannie.webp'
+import evening from '../assets/img/webp/evening.webp'
+import naberskha from '../assets/img/webp/nebrska.webp'
 
 
 const Nft = () => {

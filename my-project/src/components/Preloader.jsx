@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react';
-import gorila from '../assets/img/png/gorila.png'
+import gorila from '../assets/img/webp/gorila.webp'
 const Preloader = () => {
     const [loder, setloader] = useState(true);
     useEffect(() => {

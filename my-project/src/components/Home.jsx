@@ -1,10 +1,10 @@
 import React from 'react'
 import { DaimendIcon, DiscordIcon, MasterIcon, ShipIcon, TelegramIcon, TwiterIcon } from './Icons'
-import Kingkong3 from '../assets/img/png/kingkong3.png'
-import Kingkong2 from '../assets/img/png/kingkong2.png'
-import Kingkong from '../assets/img/png/kong1.png'
-import left_design from '../assets/img/png/left_design.png'
-import right_design from '../assets/img/png/right_design.png'
+import Kingkong3 from '../assets/img/webp/kingkong3.webp'
+import Kingkong2 from '../assets/img/webp/kingkong2.webp'
+import Kingkong from '../assets/img/webp/kong1.webp'
+import left_design from '../assets/img/webp/left_design.webp'
+import right_design from '../assets/img/webp/right_design.webp'
 
 const Home = () => {
   return (

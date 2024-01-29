@@ -1,7 +1,7 @@
 import React from 'react'
-import watches from '../assets/img/png/watches.png'
-import boats from '../assets/img/png/boats.png'
-import cars from '../assets/img/png/cars.png'
+import watches from '../assets/img/webp/watches.webp'
+import boats from '../assets/img/webp/boats.webp'
+import cars from '../assets/img/webp/cars.webp'
 
 const About = () => {
     return (
@@ -9,7 +9,7 @@ const About = () => {
             <div className='container mx-auto px-[12px] sm:overflow-visible overflow-hidden pb-[50px] lg:pb-[100px]'>
                 <div className=' lg:flex pt-[75px] md:pt-[150px] items-center'>
                     <div data-aos="fade-right" data-aos-duration="1000" className='lg:w-1/2'>
-                        <h2 className='text-[#fff] text-[64px] font-normal font-Azo'>About </h2>
+                        <h2 className='text-[#fff] text-[50px] sm:text-[64px] font-normal font-Azo'>About </h2>
                         <p className='text-[#fff] text-[16px] font-normal font-Montserrat'>Turpis et tortor vel pharetra nibh. Mauris nisl sit vitae viverra amet et. Erat nam molestie. Vitae mollis lacus senectus mattis nisl. Porta , adipiscing sed mus diam amet, ac sed tellus. </p>
                     </div>
                     <div className='lg:w-1/2 flex justify-center pb-[44px]'>
